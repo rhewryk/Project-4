@@ -71,6 +71,6 @@ function draw() {
 }
 
 
-//function mousePressed() {
-//	saveCanvas("sketch-"+sketchLetter,"jpg")
-//}
+function mousePressed() {
+	saveCanvas("sketch-"+sketchLetter,"jpg")
+}
