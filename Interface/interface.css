@@ -4,3 +4,28 @@
 	font-size: 25pt;
 	text-align: center;
 }
+
+
+.page_layout {
+	position: absolute;
+	top: 80px;
+	left: 550px;
+	height: 850px;
+	width: 800px;
+	background: transparent;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: pink;
+}
+
+.letter_a {
+	position: absolute;
+	background: lightblue;
+}
+
+.line01 {
+	top: 20px;
+	left: 30px;
+	height: 20px;
+	width: 10px;
+}
