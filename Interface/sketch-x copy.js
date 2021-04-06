@@ -1,8 +1,8 @@
-const sketchLetter = "A";
+const sketchNumber = "18";
 
 
 let pg
-let font 
+let font
 let rgba = ['rgba(255, 0, 0, 0.9)', 'rgba(0, 255, 0, 0.9)', 'rgba(0, 0, 255, 0.9)']
 let textSize = 1550
 let posOffset = 10
@@ -11,23 +11,25 @@ let tiles = 100
 let tileSize
 let loopDuration = 2 * 60
 
-
 function preload() {
-	font = loadFont('SansForgetica-Regular.otf')
+  font = loadFont('SansForgetica-Regular.otf')
+}
 
+function setup() {
+  createCanvas(1000, 1000)
 
- pg = createGraphics(width, height)
+  pg = createGraphics(width, height)
   pg.textFont(font)
   pg.textAlign(CENTER, CENTER)
   pg.blendMode(SCREEN)
   pg.translate(width / 2, height / 2)
   pg.textSize(1000)
   pg.fill(rgba[0])
-  pg.text('A', -4, -4)
+  pg.text('X', -4, -4)
   pg.fill(rgba[1])
-  pg.text('A', 0, 0)
+  pg.text('X', 0, 0)
   pg.fill(rgba[2])
-  pg.text('A', 4, 4)
+  pg.text('X', 4, 4)
 
   tileSize = width / tiles
 
@@ -71,6 +73,10 @@ function draw() {
 }
 
 
-//function mousePressed() {
-//	saveCanvas("sketch-"+sketchLetter,"jpg")
-//}
+
+//https://editor.p5js.org/p5user1/sketches/KGT8KMUlb
+
+function mousePressed() {
+	saveCanvas("sketch-"+sketchNumber,"jpg")
+}
+
