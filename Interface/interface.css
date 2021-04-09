@@ -1,31 +1,37 @@
 .title {
+	padding: .5em;
 	font-family: helvetica;
-	color: #ff0054;
 	font-size: 25pt;
-	text-align: center;
+	text-align: left;
+}
+
+.perameters {
+	font-family: helvetica;
+	text-align: left;
+	font-size: 15pt;
 }
 
 
 .page_layout {
 	position: absolute;
-	top: 80px;
-	left: 550px;
-	height: 850px;
-	width: 800px;
+	top: 50px;
+	left: 700px;
+	height: 870px;
+	width: 500px;
 	background: transparent;
 	outline-style: solid;
 	outline-width: 3px;
-	outline-color: pink;
+	outline-color: black;
 }
 
 .letter_a {
 	position: absolute;
-	background: lightblue;
+	background: black;
 }
 
 .line01 {
-	top: 20px;
-	left: 30px;
-	height: 20px;
-	width: 10px;
+	top: 400px;
+	left: 100px;
+	height: 4px;
+	width: 150px;
 }
