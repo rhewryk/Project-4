@@ -1,5 +1,5 @@
 .title {
-	padding: .5em;
+	padding: 1.5em;
 	font-family: helvetica;
 	font-size: 25pt;
 	text-align: left;
@@ -9,6 +9,28 @@
 	font-family: helvetica;
 	text-align: left;
 	font-size: 15pt;
+	padding-left: 4em;
+}
+
+.perameter {
+	font-family: helvetica;
+	text-align: left;
+	font-size: 15pt;
+	padding-left: 4em;
+}
+
+.p2 {
+	font-family: helvetica;
+	text-align: left;
+	font-size: 15pt;
+	padding-left: 4em;
+}
+
+.amplitude {
+	font-family: helvetica;
+	text-align: left;
+	font-size: 15pt;
+	padding-left: 4em;
 }
 
 
@@ -30,8 +52,18 @@
 }
 
 .line01 {
-	top: 400px;
-	left: 100px;
-	height: 4px;
+	top: 330px;
+	left: 90px;
+	height: 2px;
 	width: 150px;
+}
+
+.circle {
+	position: absolute;
+	background-color: black;
+	top: 326px;
+	left: 100px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
 }
