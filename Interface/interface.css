@@ -1,7 +1,8 @@
 .title {
-	padding: 1.5em;
+	padding-top: .1em;
+	padding-left: 2.71em;
 	font-family: helvetica;
-	font-size: 25pt;
+	font-size: 30pt;
 	text-align: left;
 }
 
@@ -36,10 +37,10 @@
 
 .page_layout {
 	position: absolute;
-	top: 50px;
+	top: 30px;
 	left: 700px;
-	height: 870px;
-	width: 500px;
+	height: 950px;
+	width: 550px;
 	background: transparent;
 	outline-style: solid;
 	outline-width: 3px;
@@ -52,18 +53,36 @@
 }
 
 .line01 {
-	top: 330px;
-	left: 90px;
-	height: 2px;
-	width: 150px;
+	background-color: #757575;
+	top: 210px;
+	left: 120px;
+	height: 4px;
+	width: 180px;
 }
 
 .circle {
 	position: absolute;
-	background-color: black;
-	top: 326px;
-	left: 100px;
-	height: 10px;
-	width: 10px;
+	background-color: #757575;
+	top: 204px;
+	left: 125px;
+	height: 17px;
+	width: 17px;
 	border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

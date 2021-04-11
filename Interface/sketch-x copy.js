@@ -1,4 +1,4 @@
-const sketchLetter = "TRY";
+const sketchNumber = "18";
 
 
 let pg
@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(550, 950)
+  createCanvas(1000, 1000)
 
   pg = createGraphics(width, height)
   pg.textFont(font)
@@ -36,9 +36,9 @@ function setup() {
   // Throttle frame rate for performance
   frameRate(30)
 
-   // createLoop({
-   // duration:10,
-   // gif:true});
+    createLoop({
+    duration:10,
+    gif:true});
 }
 
 
@@ -74,10 +74,9 @@ function draw() {
 
 
 
-
-
-
+//https://editor.p5js.org/p5user1/sketches/KGT8KMUlb
 
 function mousePressed() {
-	saveCanvas("sketch-"+sketchLetter,"jpg")
+	saveCanvas("sketch-"+sketchNumber,"jpg")
 }
+
