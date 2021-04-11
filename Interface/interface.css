@@ -54,7 +54,7 @@
 
 .line01 {
 	background-color: #757575;
-	top: 210px;
+	top: 200px;
 	left: 120px;
 	height: 4px;
 	width: 180px;
@@ -63,13 +63,20 @@
 .circle {
 	position: absolute;
 	background-color: #757575;
-	top: 204px;
+	top: 194px;
 	left: 125px;
 	height: 17px;
 	width: 17px;
 	border-radius: 50%;
 }
 
+.text {
+	position: absolute;
+	top: 30px;
+	left: 700px;
+	height: 950px;
+	width: 550px;
+}
 
 
 

@@ -4,9 +4,9 @@ const sketchLetter = "TRY";
 let pg
 let font
 let rgba = ['rgba(255, 0, 0, 0.9)', 'rgba(0, 255, 0, 0.9)', 'rgba(0, 0, 255, 0.9)']
-let textSize = 1550
-let posOffset = 10
-let sizeOffset = 50
+let textSize = 450
+let posOffset = 20
+let sizeOffset = 100
 let tiles = 100
 let tileSize
 let loopDuration = 2 * 60
@@ -22,14 +22,14 @@ function setup() {
   pg.textFont(font)
   pg.textAlign(CENTER, CENTER)
   pg.blendMode(SCREEN)
-  pg.translate(width / 2, height / 2)
-  pg.textSize(1000)
+  pg.translate(width / 1.9, height / 1.7)
+  pg.textSize(200)
   pg.fill(rgba[0])
-  pg.text('X', -4, -4)
+  pg.text('EXPERIMENT', -4, -4)
   pg.fill(rgba[1])
-  pg.text('X', 0, 0)
+  pg.text('EXPERIMENT', 0, 0)
   pg.fill(rgba[2])
-  pg.text('X', 4, 4)
+  pg.text('EXPERIMENT', 4, 4)
 
   tileSize = width / tiles
 
@@ -45,7 +45,7 @@ function setup() {
 
 function draw() {
   
-  background('rgba(0, 0, 0, 1)')
+  background('rgba(0, 0, 0, 2)')
 
   let currentFrame = frameCount % loopDuration
   let t = currentFrame / loopDuration
