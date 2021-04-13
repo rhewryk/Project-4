@@ -10,6 +10,7 @@ let sizeOffset = 100
 let tiles = 100
 let tileSize
 let loopDuration = 2 * 60
+let textsource = "hang in there baby"
 
 function preload() {
   font = loadFont('PERTILI.TTF')
@@ -20,18 +21,19 @@ function setup() {
 
   pg = createGraphics(width, height)
   pg.textFont(font)
-  pg.textAlign(CENTER, CENTER)
+  //pg.textAlign(CENTER, CENTER)
   pg.blendMode(SCREEN)
-  pg.translate(width / 1.9, height / 1.7)
+  //pg.translate(width / 1.9, height / 1.7)
   pg.textSize(200)
+  pg.textLeading(180)
   pg.fill(rgba[0])
-  pg.text('TYPE HERE', -4, -4)
+  pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[1])
-  pg.text('TYPE HERE', 0, 0)
+  pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[2])
-  pg.text('TYPE HERE', 4, 4)
+  pg.text(textsource, 4, 4, width, height)
 
-  tileSize = width / tiles
+  tileSize = height / tiles
 
   // Throttle frame rate for performance
   frameRate(30)
@@ -39,6 +41,7 @@ function setup() {
    // createLoop({
    // duration:10,
    // gif:true});
+   //image(pg, 0, 0, width, height)
 }
 
 
@@ -82,6 +85,6 @@ function draw() {
 
 
 
-//function mousePressed() {
-//	saveCanvas("sketch-"+sketchLetter,"jpg")
-//}
+function mousePressed() {
+	saveCanvas("sketch-"+sketchLetter,"jpg")
+}
