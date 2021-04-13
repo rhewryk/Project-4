@@ -1,30 +1,16 @@
 .title {
 	/*padding-top: .00001em;*/
-	padding-left: 2.21em;
-	font-family: dazzle-unicase, sans-serif;
-	font-weight: 700;
+	padding-left: 1.9em;
+	font-family: oskar, sans-serif;
+	font-weight: 600;
 	font-style: normal;
-	font-size: 35pt;
+	font-size: 40pt;
 	text-align: left;
-}
-
-.perameters {
-	font-family: helvetica;
-	text-align: left;
-	font-size: 20pt;
-	padding-left: 4em;
-}
-
-.perameter {
-	font-family: helvetica;
-	text-align: left;
-	font-size: 20pt;
-	padding-left: 4em;
 }
 
 .text_2 {
-	font-family: dazzle-unicase, sans-serif;
-	font-weight: 300;
+	font-family: oskar, sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	font-size: 25pt;
@@ -37,8 +23,8 @@
 }
 
 .amplitude {
-	font-family: dazzle-unicase, sans-serif;
-	font-weight: 300;
+	font-family: oskar, sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	font-size: 25pt;
@@ -65,7 +51,7 @@
 
 .line01 {
 	background-color: black;
-	top: 290px;
+	top: 245px;
 	left: 120px;
 	height: 4px;
 	width: 180px;
@@ -74,7 +60,7 @@
 .circle {
 	position: absolute;
 	background-color: orange;
-	top: 284px;
+	top: 239px;
 	left: 125px;
 	height: 17px;
 	width: 17px;
