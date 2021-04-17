@@ -1,5 +1,7 @@
 const sketchLetter = "TRY";
 
+var textfield;
+var output;
 
 let pg
 let font
@@ -18,6 +20,12 @@ function preload() {
 
 function setup() {
   createCanvas($(window).height()*0.666666, $(window).height())
+  
+  textfield = createInput("HANG IN THERE BABY");
+  textfield.changed(newText);
+  textfielf.input(newTyping);
+  output = select(textsource);
+
 
   pg = createGraphics(width, height)
   pg.textFont(font)
@@ -42,6 +50,14 @@ function setup() {
    // duration:10,
    // gif:true});
    //image(pg, 0, 0, width, height)
+}
+
+function newTyping() {
+  output.html(textfield.value());
+}
+
+function newText() {
+  createP(textfield.value());
 }
 
 
