@@ -12,7 +12,7 @@ let sizeOffset = 100
 let tiles = 100
 let tileSize
 let loopDuration = 2 * 60
-let textsource = "hang in there baby"
+let textsource = $("#posterText").val()
 
 function preload() {
   font = loadFont('PERTILI.TTF')
@@ -21,10 +21,10 @@ function preload() {
 function setup() {
   createCanvas($(window).height()*0.666666, $(window).height())
   
-  textfield = createInput("HANG IN THERE BABY");
-  textfield.changed(newText);
-  textfielf.input(newTyping);
-  output = select(textsource);
+  //textfield = $("#posterText")
+  //textfield.changed(newText);
+  //textfield.input(newTyping);
+  //output = select(textsource);
 
 
   pg = createGraphics(width, height)
@@ -101,6 +101,6 @@ function draw() {
 
 
 
-function mousePressed() {
-	saveCanvas("sketch-"+sketchLetter,"jpg")
-}
+//function mousePressed() {
+//	saveCanvas("sketch-"+sketchLetter,"jpg")
+//}
