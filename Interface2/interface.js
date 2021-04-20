@@ -21,9 +21,9 @@ function preload() {
 function setup() {
   createCanvas($(window).height()*0.666666, $(window).height())
   
-  //textfield = $("#posterText")
+  //textfield = $("#posterTex)
   //textfield.changed(newText);
-  //textfield.input(newTyping);
+  $("#posterText").keyup(newTyping);
   //output = select(textsource);
 
 
@@ -53,16 +53,24 @@ function setup() {
 }
 
 function newTyping() {
-  output.html(textfield.value());
-}
+  textsource = $("#posterText").val()
+  
+  pg = createGraphics(width, height)
+  pg.textFont(font)
+  //pg.textAlign(CENTER, CENTER)
+  pg.blendMode(SCREEN)
+  //pg.translate(width / 1.9, height / 1.7)
+  pg.textSize(200)
+  pg.textLeading(180)
+  pg.fill(rgba[0])
+  pg.text(textsource, 0, 0, width, height)
+  pg.fill(rgba[1])
+  pg.text(textsource, 0, 0, width, height)
+  pg.fill(rgba[2])
+  pg.text(textsource, 4, 4, width, height)
 
-function newText() {
-  createP(textfield.value());
-}
+  tileSize = height / tiles
 
-
-
-function draw() {
   
   background('rgba(0, 0, 0, 2)')
 
