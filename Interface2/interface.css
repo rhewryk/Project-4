@@ -1,14 +1,14 @@
 .title {
 	/*padding-top: .00001em;*/
-	padding-left: 1.9em;
+	padding-left: .01em;
 	font-family: oskar, sans-serif;
 	font-weight: 600;
 	font-style: normal;
-	font-size: 40pt;
+	font-size: 45pt;
 	text-align: left;
 }
 
-.text_2 {
+/*.text_2 {
 	font-family: oskar, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -21,15 +21,16 @@
 .text_2:hover{
 	cursor:text;
 }
+*/
 
-.amplitude {
+/*.amplitude {
+	position: absolute;
 	font-family: oskar, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	text-align: left;
 	font-size: 25pt;
-	padding-left: 3em;
-}
+	top: 60px;
+}*/
 
 
 
@@ -38,7 +39,7 @@
 	background: black;
 }
 
-.line01 {
+/*.line01 {
 	background-color: black;
 	top: 245px;
 	left: 120px;
@@ -58,7 +59,7 @@
 
 .circle:hover {
 	cursor: pointer;
-}
+}*/
 
 .text {
 	position: absolute;
@@ -75,7 +76,26 @@
 	transform: translate(-50%, -50%);
 }
 
+#posterText {
+	font-size: 25pt;
+	font-family: oskar, sans-serif;
+	color: #ff366f;
+	font-weight: 400;
+	width: 300px;
+	height: 23px;
+}
 
+#posterText:hover {
+	cursor: text;
+}
+
+#amplitude {
+	background-color: #ff366f;
+}
+
+#amplitude:hover {
+	cursor: pointer;
+}
 
 
 
