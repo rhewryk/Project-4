@@ -6,9 +6,9 @@ var output;
 let pg
 let font
 let rgba = ['rgba(255, 05, 10, 0.9)', 'rgba(100, 95, 0, 0.9)', 'rgba(0, 150, 255, 1)']
-let textSize = 450
-let posOffset = 20
-let sizeOffset = 100
+let textSize = 400
+let posOffset = 10
+let sizeOffset = 60
 let tiles = 100
 let tileSize
 let loopDuration = 2 * 60
@@ -20,7 +20,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas($(window).height()*0.666666, $(window).height())
+  createCanvas($(window).height()*0.666666666666666666666666666666666, $(window).height())
   
   //textfield = $("#posterTex)
   //textfield.changed(newText);
@@ -49,7 +49,7 @@ $(document).on('input', '#amplitude', function() {
   pg.fill(rgba[1])
   pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[2])
-  pg.text(textsource, 4, 4, width, height)
+  pg.text(textsource, 3, 4, width, height)
 
   tileSize = height / tiles
 
