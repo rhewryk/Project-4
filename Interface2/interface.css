@@ -90,7 +90,8 @@
 }
 
 #amplitude {
-	background-color: #ff366f;
+	background-color: green;
+	/*#ff366f;*/
 }
 
 #amplitude:hover {
