@@ -4,7 +4,7 @@
 	font-family: oskar, sans-serif;
 	font-weight: 600;
 	font-style: normal;
-	font-size: 45pt;
+	font-size: 48pt;
 	text-align: left;
 }
 
@@ -90,20 +90,15 @@
 }
 
 #amplitude {
-	background-color: green;
+	background: green;
+	color: green;
+	fill: green;
 	/*#ff366f;*/
 }
 
 #amplitude:hover {
 	cursor: pointer;
 }
-
-
-
-
-
-
-
 
 
 

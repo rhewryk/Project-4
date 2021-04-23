@@ -5,7 +5,7 @@ var output;
 
 let pg
 let font
-let rgba = ['rgba(255, 0, 0, 0.9)', 'rgba(0, 55, 0, 0.9)', 'rgba(0, 150, 255, 1)']
+let rgba = ['rgba(255, 05, 10, 0.9)', 'rgba(100, 95, 0, 0.9)', 'rgba(0, 150, 255, 1)']
 let textSize = 450
 let posOffset = 20
 let sizeOffset = 100
@@ -108,7 +108,6 @@ function newTyping() {
     }
   }
 }
-
 
 
 
