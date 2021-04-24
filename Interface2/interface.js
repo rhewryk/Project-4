@@ -5,7 +5,7 @@ var output;
 
 let pg
 let font
-let rgba = ['rgba(255, 05, 10, 0.9)', 'rgba(100, 95, 0, 0.9)', 'rgba(0, 150, 255, 1)']
+let rgba = ['rgba(255, 05, 100, .7)', 'rgba(100, 95, 70, 0.9)', 'rgba(0, 200, 255, 1)']
 let textSize = 400
 let posOffset = 10
 let sizeOffset = 60
