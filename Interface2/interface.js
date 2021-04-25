@@ -33,7 +33,7 @@ $(document).on('input', '#amplitude', function() {
 
 
 $(document).on('input', '#sizeText', function() {
- textspecifications = $(this).val() 
+ textspecifications = parseInt($(this).val());
  newTyping();
 });
 
@@ -69,8 +69,8 @@ function newTyping() {
   //pg.textAlign(CENTER, CENTER)
   pg.blendMode(SCREEN)
   //pg.translate(width / 1.9, height / 1.7)
-  pg.textSize(475)
-  pg.textLeading(475)
+  pg.textSize(textspecifications)
+  pg.textLeading(textspecifications)
   pg.fill(rgba[0])
   pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[1])
