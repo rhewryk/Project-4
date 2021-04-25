@@ -1,6 +1,6 @@
 .left-menu {
 	width: 300px;
-	padding: 1em;
+	padding: .5em;
 }
 
 .title {
@@ -10,6 +10,47 @@
 	font-weight: 600;
 	font-style: normal;
 	font-size: 48pt;
+	text-align: left;
+}
+
+.description {
+	font-size: 18px;
+	font-family: oskar, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+}
+
+.me {
+	font-size: 20px;
+	font-family: oskar, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+	color: #ff366f;
+}
+
+.input_text {
+	font-size: 25px;
+	font-family: oskar, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+}
+
+.amplitude {
+	font-size: 25px;
+	font-family: oskar, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+}
+
+.text_size {
+	font-size: 25px;
+	font-family: oskar, sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	text-align: left;
 }
 
@@ -145,7 +186,7 @@ how to remove the virtical space around the range input in IE*/
 }
 
 h1,input[type=range],input[type=text],button {
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 }
 
 .slider:hover {
