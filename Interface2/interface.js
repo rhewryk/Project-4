@@ -30,16 +30,10 @@ $(document).on('input', '#amplitude', function() {
   newTyping();
 });
 
-
-
 $(document).on('input', '#sizeText', function() {
  textspecifications = parseInt($(this).val());
  newTyping();
 });
-
-
-  //output = select(textsource);
-console.log(textspecifications)
 
   pg = createGraphics(width, height)
   pg.textFont(font)
@@ -49,7 +43,7 @@ console.log(textspecifications)
   pg.textSize(textspecifications)
   pg.textLeading(textspecifications)
   pg.fill(rgba[0])
-  pg.text(textsource, 0, 0, width, height)
+  pg.text(textsource, -5, -5, width, height)
   pg.fill(rgba[1])
   pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[2])
@@ -72,7 +66,7 @@ function newTyping() {
   pg.textSize(textspecifications)
   pg.textLeading(textspecifications)
   pg.fill(rgba[0])
-  pg.text(textsource, 0, 0, width, height)
+  pg.text(textsource, -5, -5, width, height)
   pg.fill(rgba[1])
   pg.text(textsource, 0, 0, width, height)
   pg.fill(rgba[2])
@@ -80,7 +74,6 @@ function newTyping() {
 
   tileSize = height / tiles
 
-  
   background('rgba(0, 0, 0, 2)')
 
   //let currentFrame = frameCount % loopDuration
@@ -88,7 +81,6 @@ function newTyping() {
   //let t = currentFrame / loopDuration
   //let t = 0.1
   let u = map(t, 0, 1, 0, PI)
-
 
   for (let y = 0; y < tiles; y++) {
   	for (let x = 0; x < tiles; x++) {
@@ -112,12 +104,6 @@ function newTyping() {
 }
 
 
-
 $("#keep").click(function(){
   saveCanvas("poster","jpg")
 })
-
-
-//function mousePressed() {
-//	
-//}

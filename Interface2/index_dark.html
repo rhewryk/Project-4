@@ -5,39 +5,28 @@
 		
 		<link rel="stylesheet" href="https://use.typekit.net/esi3akg.css">
 
-		<link rel="stylesheet" href='interface.css'>
+		<link rel="stylesheet" href='interface_dark.css'>
 
 </head>
 
 	<body>
-			<h1 class="title" style="">TYPE A DALI</h1>
 
+		<div class="left-menu">
+			<h1 class="title" style="">TYPE-A-DALI</h1>
 
+			<input type="range" id="amplitude" min="0" max="250">
+
+			<input type="range" min="100" max="900" value="475" class="slider" id="sizeText">
 			
-			<!--<p class="perameters" style="">Vertical</p>
-			<p class="perameter" style="">Horizontal</p>-->
+			<textarea id="posterText">everything alters me, but nothing changes me.</textarea>
 
-			<!--<p class="text_2" style="">TYPE HERE</p>-->
+			<a href='index.html'>
+			<button id="lightmode">LIGHT MODE</button>
 
-			<!-- <p class="amplitude" style="">amplitude of text</p> -->
+			<button id="darkmode">DARK MODE</button>
 
-
-			<!--<input type="range" id="volume" name="volume" min="0" max="11"> -->
-
-			<input type="range" id="amplitude" min="0" max="200">
-
-			<input type="range" min="150" max="800" value="475" class="slider" id="sizeText">
-			
-			<div class="page_layout"></div>
-			
-			
-<input type="text" id="posterText" value="hitb"/>
-
-<button id="keep">DOWNLOAD FILE</button>
-
-<button id="lightmode">LIGHT MODE</button>
-<button id="darkmode">DARK MODE</button>
-
+			<button id="keep">DOWNLOAD FILE</button>
+		</div>
 
 
 	 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
@@ -47,7 +36,7 @@
 	 	<script src="https://unpkg.com/p5.createloop@0.2.8/dist/p5.createloop.js"></script>
 
 
-	 <script class="text" src="interface.js"></script>
+	 <script class="text" src="interface_dark.js"></script>
 
 
 

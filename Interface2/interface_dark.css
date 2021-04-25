@@ -1,6 +1,15 @@
+.left-menu {
+	width: 300px;
+	padding: 1em;
+}
+
+body { 
+background-color: black
+ }
+
 .title {
 	/*padding-top: .00001em;*/
-	padding-left: .01em;
+	color: white;
 	font-family: oskar, sans-serif;
 	font-weight: 600;
 	font-style: normal;
@@ -10,9 +19,8 @@
 
 .letter_a {
 	position: absolute;
-	background: black;
+	background: white;
 }
-
 
 .text {
 	position: absolute;
@@ -27,6 +35,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0.25);
+	background-color: white;
 }
 
 #posterText {
@@ -34,8 +43,6 @@
 	font-family: oskar, sans-serif;
 	color: #ff366f;
 	font-weight: 400;
-	width: 300px;
-	height: 23px;
 }
 
 #posterText:hover {
@@ -47,18 +54,17 @@
 }
 
 /* range editing taken from danielstern.ca/range.css/#/ */
-
 input[type=range] {
   width: 300px;
   margin: 8.1px 0;
-  background-color: transparent;
+  background-color: white;
   -webkit-appearance: none;
 }
 input[type=range]:focus {
   outline: none;
 }
 input[type=range]::-webkit-slider-runnable-track {
-  background: #000000;
+  background: rgba(0, 0, 0, 0);
   border: 0;
   width: 100%;
   height: 3.8px;
@@ -75,18 +81,18 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #0a0a0a;
+  background: rgba(0, 0, 0, 0);
 }
 input[type=range]::-moz-range-track {
-  background: #000000;
+  background: rgba(0, 0, 0, 0);
   border: 0;
   width: 100%;
   height: 3.8px;
   cursor: pointer;
 }
 input[type=range]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background: #ff366f;
   border: 0;
   border-radius: 50px;
@@ -102,16 +108,16 @@ input[type=range]::-ms-track {
   cursor: pointer;
 }
 input[type=range]::-ms-fill-lower {
-  background: #000000;
+  background: rgba(0, 0, 0, 0);
   border: 0;
 }
 input[type=range]::-ms-fill-upper {
-  background: #000000;
+  background: rgba(0, 0, 0, 0);
   border: 0;
 }
 input[type=range]::-ms-thumb {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background: #ff366f;
   border: 0;
   border-radius: 50px;
@@ -120,10 +126,10 @@ input[type=range]::-ms-thumb {
   /*Needed to keep the Edge thumb centred*/
 }
 input[type=range]:focus::-ms-fill-lower {
-  background: #000000;
+   background: rgba(0, 0, 0, 0);
 }
 input[type=range]:focus::-ms-fill-upper {
-  background: #0a0a0a;
+  background: rgba(0, 0, 0, 0);
 }
 /*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
 how to remove the virtical space around the range input in IE*/
@@ -135,8 +141,6 @@ how to remove the virtical space around the range input in IE*/
   }
 }
 
-
-
 .slidecontainer {
 	width: 300px;
 }
@@ -145,18 +149,24 @@ how to remove the virtical space around the range input in IE*/
 	width: 100%;
 }
 
+h1,input[type=range],input[type=text],button {
+	margin-bottom: 2rem;
+}
+
 .slider:hover {
 	cursor: pointer;
 }
 
+textarea {
+	width:100%;
+	height:450px;
+}
+
 #keep {
-	position: absolute;
-	top: 550px;
-	left: 5px;
-	width: 260px;
+	width: 100%;
 	height: 40px;
 	background-color: #ff366f;
-	color: white;
+	color: black;
 	border-radius: 20px;
 	font-size: 15px;
 	padding: .2em;
@@ -166,7 +176,7 @@ how to remove the virtical space around the range input in IE*/
 
 #keep:hover {
 	cursor: pointer;
-	background-color: white;
+	background-color: black;
 	color: #ff366f;
 	font-size: 24px;
 	font-weight: 600;
@@ -174,9 +184,6 @@ how to remove the virtical space around the range input in IE*/
 
 #lightmode {
 	outline: white;
-	position: absolute;
-	left: 10px;
-	top: 500px;
 	background-color: white;
 	color: black;
 	width: 110px;
@@ -187,9 +194,6 @@ how to remove the virtical space around the range input in IE*/
 
 #darkmode {
 	outline: black;
-	position: absolute;
-	left: 150px;
-	top: 500px;
 	background-color: black;
 	color: white;
 	width: 110px;
