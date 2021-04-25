@@ -150,21 +150,60 @@ how to remove the virtical space around the range input in IE*/
 }
 
 #keep {
-width: 150px;
-height: 30px;
-background-color: #ff366f;
-color: white;
-border-radius: 20px;
-padding: .4em;
-border: 2px;
-outline: #ff366f;
+	position: absolute;
+	top: 550px;
+	left: 5px;
+	width: 260px;
+	height: 40px;
+	background-color: #ff366f;
+	color: white;
+	border-radius: 20px;
+	font-size: 15px;
+	padding: .2em;
+	border: 2px;
+	outline: #ff366f;
 }
 
 #keep:hover {
 	cursor: pointer;
 	background-color: white;
 	color: #ff366f;
-	font-size: 17px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#lightmode {
+	outline: white;
+	position: absolute;
+	left: 10px;
+	top: 500px;
+	background-color: white;
+	color: black;
+	width: 110px;
+	height: 25px;
+	padding: .1em;
+	border-radius: 20px;
+}
+
+#darkmode {
+	outline: black;
+	position: absolute;
+	left: 150px;
+	top: 500px;
+	background-color: black;
+	color: white;
+	width: 110px;
+	height: 25px;
+	padding: .1em;
+	border-radius: 20px;
+}
+
+#lightmode:hover {
+	cursor: pointer;
+}
+
+#darkmode:hover {
+	cursor: pointer;
 }
 
 
