@@ -3,8 +3,8 @@ var output;
 
 let pg
 let font
-let rgba = ['rgba(255, 15, 200, .7)', 'rgba(220, 95, 200, .8)', 'rgba(0, 150, 255, 1)']
-
+let rgba = ['rgba(255, 50, 190, .7)', 'rgba(125, 105, 70, 0.9)', 'rgba(0, 200, 255, 1)']
+//rgba(255, 05, 100, .7)', 'rgba(100, 95, 70, 0.9)', 'rgba(0, 200, 255, 1)
 let posOffset = 10
 let sizeOffset = 60
 let tiles = 100
@@ -74,7 +74,7 @@ function newTyping() {
 
   tileSize = height / tiles
 
-  background('rgba(0, 0, 0, 0)')
+  background('white')
 
   //let currentFrame = frameCount % loopDuration
   //let currentFrame = 5

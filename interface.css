@@ -6,8 +6,8 @@
 .title {
 	/*padding-top: .00001em;*/
 	padding-left: .01em;
-	font-family: oskar, sans-serif;
-	font-weight: 600;
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 48pt;
 	text-align: left;
@@ -15,16 +15,16 @@
 
 .description {
 	font-size: 18px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 }
 
 .me {
-	font-size: 20px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-size: 22px;
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: #ff366f;
@@ -32,24 +32,24 @@
 
 .input_text {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 }
 
 .amplitude {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 }
 
 .text_size {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 }
@@ -76,7 +76,8 @@
 
 #posterText {
 	font-size: 25pt;
-	font-family: oskar, sans-serif;
+	font-family: garamond-premier-pro-subhead, serif;
+	text-transform: uppercase;
 	color: #ff366f;
 	font-weight: 400;
 }

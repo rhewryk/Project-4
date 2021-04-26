@@ -10,8 +10,8 @@ background-color: black
 .title {
 	/*padding-top: .00001em;*/
 	color: white;
-	font-family: oskar, sans-serif;
-	font-weight: 600;
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 48pt;
 	text-align: left;
@@ -19,17 +19,17 @@ background-color: black
 
 .description {
 	font-size: 18px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-display, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: white;
 }
 
 .me {
-	font-size: 20px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-size: 22px;
+	font-family: garamond-premier-pro-display, serif; /*oskar, sans-serif;*/
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: #ff366f;
@@ -37,8 +37,8 @@ background-color: black
 
 .input_text {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: white;
@@ -46,8 +46,8 @@ background-color: black
 
 .amplitude {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: white;
@@ -55,8 +55,8 @@ background-color: black
 
 .text_size {
 	font-size: 25px;
-	font-family: oskar, sans-serif;
-	font-weight: 300;
+	font-family: garamond-premier-pro-subhead, serif;
+	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	color: white;
@@ -85,7 +85,8 @@ background-color: black
 
 #posterText {
 	font-size: 25pt;
-	font-family: oskar, sans-serif;
+	font-family: garamond-premier-pro-subhead, serif;
+	text-transform: uppercase;
 	color: #ff366f;
 	font-weight: 400;
 }
