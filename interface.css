@@ -22,16 +22,17 @@
 }
 
 .me {
-	font-size: 22px;
+	font-size: 20px;
 	font-family: garamond-premier-pro-display, serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: left;
+	width: 100%;
 	/*color: #ff366f;*/
 }
 
 .input_text {
-	font-size: 25px;
+	font-size: 15px;
 	font-family: garamond-premier-pro-subhead, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -39,7 +40,7 @@
 }
 
 .amplitude {
-	font-size: 25px;
+	font-size: 15px;
 	font-family: garamond-premier-pro-subhead, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -47,7 +48,7 @@
 }
 
 .text_size {
-	font-size: 25px;
+	font-size: 15px;
 	font-family: garamond-premier-pro-subhead, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -228,12 +229,14 @@ textarea {
 	outline: white;
 	background-color: white;
 	color: black;
+	font-size: 15px;
 	width: 110px;
 	height: 25px;
 	padding: .1em;
 	border-radius: 20px;
-	border: 2px;
-	border-color: black;
+	border: 2.5px;
+	border-style: solid;
+	border-color: #ff366f;
 }
 
 #darkmode {
@@ -242,18 +245,25 @@ textarea {
 	outline: black;
 	background-color: black;
 	color: white;
+	font-size: 15px;
 	width: 110px;
 	height: 25px;
 	padding: .1em;
 	border-radius: 20px;
-	border: 2px;
+	border: 2.5px;
+	border-style: solid;
+	border-color: #ff366f;
 }
 
 #lightmode:hover {
+	color: #ff366f;
+	background-color: white;
 	cursor: pointer;
 }
 
 #darkmode:hover {
+	color: #ff366f;
+	background-color: black;
 	cursor: pointer;
 }
 
