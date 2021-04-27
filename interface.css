@@ -200,6 +200,9 @@ textarea {
 }
 
 #keep {
+	font-family: garamond-premier-pro-display, serif;
+	text-transform: uppercase;
+	font-weight: 400;
 	width: 260px;
 	height: 40px;
 	background-color: #ff366f;
@@ -216,10 +219,12 @@ textarea {
 	background-color: white;
 	color: #ff366f;
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 #lightmode {
+	font-family: garamond-premier-pro-display, serif;
+	text-transform: uppercase;
 	outline: white;
 	background-color: white;
 	color: black;
@@ -227,9 +232,13 @@ textarea {
 	height: 25px;
 	padding: .1em;
 	border-radius: 20px;
+	border: 2px;
+	border-color: black;
 }
 
 #darkmode {
+	font-family: garamond-premier-pro-display, serif;
+	text-transform: uppercase;
 	outline: black;
 	background-color: black;
 	color: white;
@@ -237,6 +246,7 @@ textarea {
 	height: 25px;
 	padding: .1em;
 	border-radius: 20px;
+	border: 2px;
 }
 
 #lightmode:hover {
